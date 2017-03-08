@@ -77,6 +77,7 @@ Reading through the docs is an invaluable experience:
   - Read the [JavaScript comparison section](http://facebook.github.io/reason/javaScriptCompared.html) as well.
 - [Rehydrate documentation](https://github.com/reasonml/rehydrate/blob/master/documentation.md) (for using React with Reason)
 - [BuckleScript Readme](https://github.com/bloomberg/bucklescript) and the [BuckleScript documentation](https://bloomberg.github.io/bucklescript/Manual.html) (for JS interop)
+- [OCaml docs](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html) (for some of the core function like `sin` and `cos`)
 
 ## Examples
 
