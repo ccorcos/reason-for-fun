@@ -83,6 +83,7 @@ Check out the [`src/tutorial.re`](./src/tutorial.re). I've built up a few differ
 Here are some other places you can find some examples:
 - [Rehydrate Examples](https://github.com/chenglou/rehydrate-example/tree/master/src)
 - [Redux Example](https://github.com/rickyvetter/rehydrate/tree/redux/examples/redux)
+- [Another Quickstart](https://github.com/glennsl/rehydrate-quick-start/blob/master/quick-start.md)
 
 ## Notes / Questions
 
