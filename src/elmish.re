@@ -41,18 +41,14 @@ module Core = {
   module CoreClass = {
     include ReactRe.Component.Stateful;
     let name = "Core";
-    type props 'model 'action = {
-      init: 'model,
-      update: 'model => 'action => 'model,
-      view: ('action => unit) => 'model => ReactRe.reactElement
-    };
-    type state 'model = 'model;
-    let getInitialState props => props.init;
-    let dispatcher {props, state} action => Some (props.update state action);
+    type props = {view: (App.action => unit) => App.model => ReactRe.reactElement};
+    type state = App.model;
+    let getInitialState _ => App.init;
+    let dispatcher {state} action => Some (App.update state action);
     let render {props, state, updater} => props.view (updater dispatcher) state;
   };
   include ReactRe.CreateComponent CoreClass;
-  let createElement ::init ::update ::view => wrapProps {init, update, view};
+  let createElement ::view => wrapProps {view: view};
 };
 /*
  module TwoOf = {
