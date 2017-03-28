@@ -1,9 +1,5 @@
 # Reason for fun (and profit)
 
-** Shh... don't share this **
-
-I almost barfed the other day when I tried TypeScript. I built up enough courage to go over to the dark side and try a Microsoft product. Everything seemed great. I got a Redux project up and running and when I opened up the browser... a runtime exception! The whole point of a compiler is to prevent runtime exceptions. And this is why I've decided to adventure off into the world of sound type systems.
-
 In this tutorial / quick-start / notes, I'm going to be exploring [Reason](https://facebook.github.io/reason/). So why not Elm or PureScript? Both languages are super cool but both have some parts I'm not as excited about. PureScript uses Bower -- ew! And neither have easy interoperability with external JavaScript libraries. I had a conversation with @chenglou and he absolutely sold me on Reason. So here goes nothing!
 
 ## Getting Started
@@ -75,7 +71,7 @@ Reading through the docs is an invaluable experience:
 - [Reason documentation](http://facebook.github.io/reason/index.html)
   - Read the [modules section](http://facebook.github.io/reason/modules.html) twice!
   - Read the [JavaScript comparison section](http://facebook.github.io/reason/javaScriptCompared.html) as well.
-- [Rehydrate documentation](https://github.com/reasonml/rehydrate/blob/master/documentation.md) (for using React with Reason)
+- [Rehydrate documentation](https://github.com/glennsl/reason-react-quick-start/blob/master/quick-start.md) (for using React with Reason)
 - [BuckleScript Readme](https://github.com/bloomberg/bucklescript) and the [BuckleScript documentation](https://bloomberg.github.io/bucklescript/Manual.html) (for JS interop)
 - [OCaml docs](http://caml.inria.fr/pub/docs/manual-ocaml/libref/Pervasives.html) (for some of the core function like `sin` and `cos`)
 
